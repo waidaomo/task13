@@ -1,0 +1,78 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0 auto;
+  max-width: 70rem; }
+
+header {
+  box-sizing: border-box;
+  background: #34bedc;
+  overflow: hidden;
+  z-index: 1;
+  color: #fff; }
+
+.page1 {
+  padding: 2rem; }
+
+.page2 {
+  position: fixed;
+  top: 0;
+  max-width: 70rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem; }
+
+.page2-btn1 {
+  height: 40px;
+  width: 39px;
+  background: url(page2/sprite.png) 0px 0px no-repeat;
+  border: none;
+  outline: none; }
+
+.page2-h {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0; }
+
+.page2-btn2 {
+  width: 36px;
+  height: 36px;
+  background: url(page2/sprite.png) -39px 0px no-repeat;
+  outline: none;
+  border: none; }
+
+.page3 {
+  position: fixed;
+  width: 100%;
+  max-width: 70rem;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 77px;
+  padding: 2rem;
+  border-bottom: 1px solid #fff; }
+
+.page3-btn {
+  background: url(page3/stick.png) no-repeat;
+  background-size: 100%;
+  width: 6%;
+  padding-top: 6%;
+  outline: none;
+  border: none; }
+
+.page3-a {
+  background: url(page3/home.png) no-repeat;
+  background-size: 100%;
+  width: 6%;
+  padding-top: 6%; }
+
+.page3-h {
+  font-size: 2.6rem; }
+
+/*# sourceMappingURL=common.css.map */
